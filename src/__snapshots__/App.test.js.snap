@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About page component renders the about page 1`] = `
+<div>
+  <nav>
+    <a
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      href="/shop"
+    >
+      Shop
+    </a>
+    <a
+      href="/contact"
+    >
+      Contact
+    </a>
+  </nav>
+  <br />
+  <br />
+  <br />
+  <div
+    class="aboutContainer"
+  >
+    <h1>
+      About Us:
+    </h1>
+    <h3>
+      We search far and wide for the best solar powered gadgets
+    </h3>
+    <h3>
+      Proudly New Zealand owned and operated
+    </h3>
+    <img
+      alt="Made in New Zealand"
+      height="300px"
+      src="madeInNewZealand.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Contact page component renders the contact page 1`] = `
+<div>
+  <nav>
+    <a
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      href="/shop"
+    >
+      Shop
+    </a>
+    <a
+      href="/about"
+    >
+      About
+    </a>
+  </nav>
+  <br />
+  <br />
+  <br />
+  <div
+    class="contactContainer"
+  >
+    <h1>
+      Contact:
+    </h1>
+    <h3>
+      notarealemail@email.com
+    </h3>
+  </div>
+</div>
+`;
+
+exports[`Home page component renders the home page 1`] = `
+<div>
+  <nav>
+    <a
+      href="/shop"
+    >
+      Shop
+    </a>
+    <a
+      href="/contact"
+    >
+      Contact
+    </a>
+    <a
+      href="/about"
+    >
+      About
+    </a>
+  </nav>
+  <br />
+  <br />
+  <br />
+  <div
+    class="background-image"
+  >
+    <img
+      alt="Earth"
+      src="earth.jpg"
+      width="1263px"
+    />
+    <h1
+      class="solarHeading"
+    >
+      The Solar Shop
+    </h1>
+  </div>
+</div>
+`;
