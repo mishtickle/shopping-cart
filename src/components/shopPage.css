@@ -1,0 +1,80 @@
+nav {
+    width: 90vw;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 10vw;
+    padding-bottom: 20px;
+    background-color: lightgrey;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.shopHeading{
+    text-align: center;
+}
+
+.background-image{
+    position: relative;
+}
+
+.solarHeading{
+    position: absolute;
+    top: 5%;
+    left: 36%;
+    font-size: 60px;
+}
+
+.products{
+    width: 70vw;
+    height: 445px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+}
+
+.contactContainer{
+    margin-left: 50px;
+}
+
+.aboutContainer{
+    margin-left: 50px;
+}
+
+.radio{
+    width: 20px;
+}
+
+.flashlight{
+    width: 20px;
+}
+
+.shower{
+    width: 20px;
+}
+
+.lamp{
+    width: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.cart{
+    height: 700px;
+    position: fixed;
+    margin-left: 80vw;
+}
+
+.checkout{
+    margin-left: auto;
+    margin-right: auto;
+}
